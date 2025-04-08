@@ -2,7 +2,7 @@
 @import url("https://eject37.github.io/DiscordTheme/HideTrash.css");
 
 :root{
-    --app-bg: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXJ0NWRrNzEzdDN5Y3NhOHpqaDVqbmt4YnF2czJuMjI1aXdqeWxyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TZf4ZyXb0lXXi/giphy.gif);
+    --app-bg: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDV4MHdsODJ3bGdneXZyZWtlcDJsOTR0cW12eHQ0ZWcweDF5azh6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sJvz8Qnfly3BOuotGx/giphy.gif);
     --blur-bg: 80px;
     --blur-other: 30px;
     --brightness-bg: 0.8;
