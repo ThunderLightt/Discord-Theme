@@ -1,0 +1,201 @@
+@import url("https://eject37.github.io/DiscordTheme/BetterFont.css");
+@import url("https://eject37.github.io/DiscordTheme/HideTrash.css");
+
+:root{
+    --app-bg: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDR5cmR6ZjYydWxtYmpwc3pwOHBkNmZjbnRldHAxYzQxZDNsbmw1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9jWPi1AH2XUfI6Q/giphy.gif);
+    --blur-bg: 80px;
+    --blur-other: 30px;
+    --brightness-bg: 0.8;
+
+    --color-main: rgba(255,255,255,0.1);
+    --border-main:  1px solid rgba(255, 255, 255, 0.1);
+    --boxshadow: inset 0 0 10px rgba(100, 100, 100, 0.1);
+}
+
+
+body{
+    background: var(--app-bg) !important;
+    background-position: 15% !important;
+    background-size: 105% 105% !important;
+}   
+/* blur на фоне */
+.bg__960e4 {
+    backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
+}
+
+.visual-refresh.theme-darker{
+--background-base-lowest: transparent;
+--bg-base-tertiary: transparent;
+--background-tertiary: transparent;
+--background-secondary: transparent;
+--background-primary: transparent;
+--background-base-lower: transparent;
+--custom-channel-members-bg: transparent;
+--background-base-low: transparent;
+--bg-brand: rgba(255, 255, 255, 0.2);
+--background-code: rgba(255, 255, 255, 0.05);
+--button-filled-brand-background: rgba(255, 255, 255, 0.1);
+--button-filled-brand-background-hover: rgba(255, 255, 255, 0.2);
+--background-surface-high: rgba(255, 255, 255, 0.15);
+--background-secondary-alt: rgba(255, 255, 255, 0.1);
+--background-modifier-hover: rgba(255, 255, 255, 0.15);
+--background-mod-subtle: rgba(255, 255, 255, 0.15);
+--card-primary-bg: rgba(255, 255, 255, 0.15);
+--bg-base-secondary: rgba(255, 255, 255, 0.15);
+--brand-500: rgba(91, 103, 234, 0.4);
+}
+/* Call BackGround*/
+.visual-refresh .root_bfe55a{
+    background: transparent;
+}
+
+/* Call BackGround*/
+.callContainer_cb9592{
+    background: transparent;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: var(--border-main);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* Share Watch in Full Screen FIX*/
+.gradientContainer_bfe55a {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.04) 0%,
+        rgba(0, 0, 0, 0) 50%
+    );
+}
+.callContainer_cb9592:has(.actionRow__6981d) {
+    margin: unset;
+    border-radius: unset;
+    border: unset;
+    box-shadow: unset;
+}
+      
+.chat_f75fb0:has(.actionRow__6981d) {
+    border: unset !important;
+}
+
+.chat_f75fb0:has(.actionRow__6981d) .form_f75fb0 {
+    margin: unset !important;
+}
+
+/* Context Menu*/
+.menu_c1e9c4{
+    background: var(--color-main);
+    border: var(--border-main);
+
+}
+.menu_c1e9c4::before{
+    backdrop-filter: blur(var(--blur-other));
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+}
+/* Fix picture open */
+#image-context[class*="menu_c1e9c4"]{
+     backdrop-filter: blur(var(--blur-other));
+}
+
+/* UP Profile BackGround*/
+.banner__68edb{
+ background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Profile BackGround*/
+.fullSize_c0bea0,.root__24502,
+/* LKM */
+.inner_c0bea0 {
+    background: transparent !important;
+    backdrop-filter: blur(10px);
+}
+.outer_c0bea0,
+/* LKM */
+.inner_c0bea0{
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* add status on myself dots */
+.outer_ab8609{
+    background: transparent;
+}
+/* ToolTip */
+.tooltip__382e7{
+background: rgba(255, 255, 255, 0) !important;
+backdrop-filter: blur(var(--blur-other));
+box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.tooltipPrimary__382e7 .tooltipPointer__382e7{
+    display: none;
+}
+/* ToolTips in Chat */
+.visual-refresh .wrapper_f7ecac{
+    background: transparent;
+    backdrop-filter: blur(var(--blur-other));
+    border: var(--border-main);
+}
+/* ToolTips in Server */
+.reactionTooltip_b49891{
+    background: rgba(255, 255, 255, 0) !important;
+    backdrop-filter: blur(var(--blur-other));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* DownloadButton */
+.hoverButtonGroup__06ab4{
+backdrop-filter: blur(var(--blur-other));
+box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+/* Chat */
+.channelBottomBarArea_f75fb0{
+    backdrop-filter: blur(var(--blur-other))
+}
+.channelTextArea_f75fb0{
+    background: transparent !important;
+}
+/* ??????????????????????????????????????????? */
+.scrollableContainer__74017{
+background: rgba(255, 255, 255, 0.03) !important;  
+border: var(--border-main);
+box-shadow: var(--boxshadow);
+}
+
+
+/* Call Status, and etc */
+.visual-refresh .panels_c48ade{
+border: var(--border-main) !important;
+backdrop-filter: blur(var(--blur-bg));
+background: rgba(255, 255, 255, 0.03) !important;  
+box-shadow: var(--boxshadow);
+}
+/* UP Panel Call Status, and etc */
+.panel__5dec7{
+    background: transparent !important;
+}
+
+
+/* Read All button */
+button.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5{
+border: none;
+}
+
+
+/* CheckBox */
+.container__87bf1.checked__87bf1{
+    background-color: rgba(255, 255, 255, 0.24) !important;
+}
+/* Profile card */
+.accountProfileCard__1fed1{
+    border: var(--border-main);
+}
